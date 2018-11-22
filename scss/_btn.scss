@@ -1,0 +1,68 @@
+.btn {
+  color: white;
+  position: relative;
+  border: 2px solid white;
+  padding: 10px 20px 10px 40px;
+  display: inline-block;
+  margin: 0 0 10px 0;
+  &::before {
+    font-family: 'iconic';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+  }
+  &--primary {
+    &::before {
+      content: '\e0bb';
+    }
+  }
+  &--external {
+    &::before {
+      content: '\e064';
+    }
+  }
+  &--undo {
+    &::before {
+      content: '\e003';
+    }
+  }
+  &--mail {
+    &::before {
+      content: '\e05c';
+    }
+  }
+  &--vcard {
+    &::before {
+      content: '\e0a5';
+    }
+  }
+  &--download {
+    &::before {
+      content: '\e04e';
+    }
+  }
+  &--hot {
+    &::before {
+      content: '\e068';
+    }
+  }
+  &--map {
+    &::before {
+      content: '\e091';
+    }
+  }
+  &--paypal {
+    &::before {
+      content: '\e086';
+    }
+  }
+  &--github {
+    &::before {
+      content: '\e06c';
+    }
+  }
+}
+a.btn {
+  text-decoration: none;
+}

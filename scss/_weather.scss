@@ -1,0 +1,54 @@
+.weather {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  color: white;
+  &::before {
+    font-family: 'iconic';
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    font-size: 20px;
+  }
+  // clear sky // fewclouds // scatteredclouds // brokenclouds // showerrain // rain // snow // mist
+  &--clearsky {
+    &::before {
+      content: '\e0c3';
+    }
+  }
+  &--fewclouds {
+    &::before {
+      content: '\e03f';
+    }
+  }
+  &--scatteredclouds {
+    &::before {
+      content: '\e03e';
+    }
+  }
+  &--brokenclouds {
+    &::before {
+      content: '\e03e';
+    }
+  }
+  &--showerrain {
+    &::before {
+      content: '\e0b1';
+    }
+  }
+  &--rain {
+    &::before {
+      content: '\e0b1';
+    }
+  }
+  &--snow {
+    &::before {
+      content: '\e0d8';
+    }
+  }
+  &--mist {
+    &::before {
+      content: '\e0d8';
+    }
+  }
+}
