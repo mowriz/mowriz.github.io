@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git@github.com:mowriz/mowriz.github.io.git"
   },
-  "author": "",
+  "author": "Moritz Limbach",
   "license": "ISC",
   "homepage": "https://mowriz.github.io/",
   "devDependencies": {
