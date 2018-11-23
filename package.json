@@ -14,8 +14,8 @@
   "license": "ISC",
   "homepage": "https://mowriz.github.io/",
   "devDependencies": {
-    "gulp-clean-css": "^3.9.3",
-    "gulp-sass": "^3.2.1",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-sass": "^4.0.2",
     "gulp-watch": "^5.0.0"
   },
   "dependencies": {
