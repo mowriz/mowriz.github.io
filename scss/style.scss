@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  outline: none;
 }
 
 body,
@@ -188,11 +189,23 @@ figure.head {
     line-height: 40px;
 
     svg {
-      width: 35px;
+      width: 40px;
+      padding-bottom: 4px;
+      border-bottom: 2px solid darkslategrey;
+      overflow: visible;
     }
 
     svg path {
       fill: white;
+    }
+    &:hover {
+      svg {
+      }
+      svg path {
+        fill: darkslategrey;
+        stroke: white;
+        stroke-width: 0.25;
+      }
     }
   }
 }
