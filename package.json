@@ -1,5 +1,5 @@
 {
-  "name": "moritzlimbach",
+  "name": "mowriz.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/l1mb0/moritzlimbach.git"
+    "url": "git@github.com:mowriz/mowriz.github.io.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/l1mb0/moritzlimbach#readme",
+  "homepage": "https://mowriz.github.io/",
   "devDependencies": {
     "gulp-clean-css": "^3.9.3",
     "gulp-sass": "^3.2.1",
