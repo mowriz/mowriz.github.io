@@ -1,5 +1,5 @@
-@import 'anims';
-@import 'fonts';
+@import "anims";
+@import "fonts";
 
 * {
   margin: 0;
@@ -121,7 +121,7 @@ figure.head:before {
   width: 200%;
   top: 0;
   left: -50%;
-  content: '';
+  content: "";
   background: #ffffff;
   position: absolute;
   -webkit-transition: all 0.3s ease-in-out;
@@ -179,6 +179,11 @@ figure.head {
       display: inline-block;
     }
   }
+}
+
+.desc {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .icons {
