@@ -11,5 +11,5 @@ gulp.task("build-css", function () {
 });
 
 gulp.task("watch", function () {
-  gulp.watch("scss/**/*.scss", ["build-css"]);
+  gulp.watch("scss/**/*.scss", gulp.series("build-css"));
 });
